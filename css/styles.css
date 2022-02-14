@@ -1,0 +1,338 @@
+:root {
+  --accent-color: #2196f3;
+  --primary-font-family: Roboto, sans-serif;
+  --secondary-font-family: Raleway, sans-serif;
+  --primary-color-text: #757575;
+  --secondary-color-text: #212121;
+  --primary-color-text-dark-theme: #ffffff;
+  --dark-background: #2F303A;
+  --light-background:#F5F4FA;
+}
+
+body {
+  font-family: var(--primary-font-family);
+  background:#FFFFFF;
+}
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.link {
+  text-decoration: none;
+}
+.nav-list .link.current {
+  color: var(--accent-color);
+}
+
+h1,h2,h3,p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+img {
+  display: block;
+}
+
+header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+ 
+  /*  outline: 2px;*/
+
+  /* ========= START COMPONENTS ========= */
+  .title {
+    padding-top: 94px;
+    padding-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--secondary-color-text);
+  }
+  .description {
+    color: var(--primary-color-text);
+  }
+  .subtitle {
+    font-weight: 700;
+    color: var(--secondary-color-text);
+    padding-top: 94px;
+  }
+
+  /* ========= END COMPONENTS ========= */
+
+  /* ========= START HEADER ========= */
+  
+  .header-container,
+  .navigation,
+  .nav-list,
+  .header-contact {
+  display: flex;
+  align-items: center
+  }
+  .logo-second-color {
+    color: var(--secondary-color-text);
+  }
+  
+  .logo {
+    font-family: var(--secondary-font-family);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+    margin-right: 92px;
+  }
+  
+  .nav-list-item:not(:last-child) {
+    margin-right: 50px;
+  }
+
+.nav-link-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color:var(--secondary-color-text);
+}
+
+.nav-link-item:hover,
+.nav-link-item:focus {
+  color: var(--accent-color);
+}
+.mail,
+.tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-color-text);
+}
+
+.header-contact {
+  margin-left: auto;
+}
+.contact-info {
+  margin-right: 50px;
+}
+.mail:hover,
+.mail:focus,
+.tel:focus,
+.tel:hover {
+  color: var(--accent-color);
+}
+
+/* ========= END HEADER ========= */
+
+/* ========= START HERO ========= */
+
+
+
+
+.hero-container {
+
+
+
+  }
+
+  .section-hero {
+    background: var(--dark-background);
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    }
+
+.main-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  margin-bottom: 30px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--primary-color-text-dark-theme);
+  align-items: center;
+  align-content:center;
+
+}
+.modal-button {
+  display: inline-block;
+  min-width: 200px;
+  padding: 10px 20px;
+  border: 1px solid var(--accent-color);
+  border-radius: 4px;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--primary-color-text-dark-theme);
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+/* ========= END HERO ========= */
+
+/* ========= START ADVANTAGES ========= */
+.advantages-container {
+  display: flex;
+}
+
+.section-advantages {
+  background: 
+}
+.subtitle-advan {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.advantages-list:not(:last-child) {
+  margin-right: 30px;
+}
+}
+.desc-advan {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+  
+
+/* ========= END ADVANTAGES ========= */
+
+/* ========= START WORKS ========= */
+.works-container {
+  display: flex;
+}
+.work-list:not(:last-child) {
+  margin-right: 30px;
+}
+/* ========= END WORKS ========= */
+
+/* ========= START TEAM ========= */
+.team-container {
+  display: flex;
+  padding: 0 0 94px 0;
+}
+.team-list:not(:last-child) {
+  margin-right: 30px;
+}
+.section-team {
+background:var(--light-background); 
+}
+.subtitle-team {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color-text);
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.qualification {
+  margin-bottom: 30px;
+  text-align: center;
+  }
+
+/* ========= END TEAM ========= */
+
+/* ========= START FOOTER ========= */
+.logo-footer {
+  margin-bottom: 20px;
+}
+.footer-list {
+  margin-bottom: 9px;
+}
+.logo-light-color {
+  color: var(--primary-color-text-dark-theme);
+}
+.contact-list {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+
+}
+.map {
+  color: var(--primary-color-text-dark-theme);
+}
+.contact {
+  color: var(--primary-color-text);
+}
+.contact-list:hover,
+.contact-list:focus {
+  color:var(--accent-color);
+}
+.address {
+  font-style: normal;
+}
+.footer-theme {
+background: var(--dark-background);
+padding-top: 60px;
+padding-bottom: 60px;
+}
+/* ========= END FOOTER  ========= */
+/* ========= START PORTFOLIO ========= */
+.page-portfolio {
+  padding-top: 94px;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.portfolio-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.list-button:not(:last-child){
+  margin-right: 8px;
+}
+
+.list-button-item {
+font-family: inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.63;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--secondary-color-text);
+cursor: pointer;
+border-radius: 4px;
+border-color:transparent;
+}
+.list-button-item:not(:last-child) {
+  margin-right:8px;
+}
+
+.list-button-item:hover,
+.list-button-item:focus{
+  color: var(--primary-color-text-dark-theme);
+  background-color: var(--accent-color);
+}
+.link-works:hover,
+.link-works:focus {
+  color:var(--accent-color);
+  
+
+/* ========= END PORTFOLIO ========= */
